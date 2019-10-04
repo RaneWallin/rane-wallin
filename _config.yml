@@ -1,0 +1,47 @@
+title: Stackbit Fresh Theme
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+layout_style: overflow
+palette: blue
+header:
+  title: Rane Wallin
+  tagline: >-
+    I'm a full stack web developer and java engineer. I am currently available
+    for hire. 
+  profile_img: >-
+    https://res.cloudinary.com/practicaldev/image/fetch/s--1ebbDDpe--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/155130/74d6bdee-09d0-496e-bcb1-2ef4302da1e6.png
+  bg: dark
+  has_nav: true
+  has_social: true
+footer:
+  content: '&copy; All rights reserved.'
+  links:
+    - text: Made with Stackbit
+      url: 'https://www.stackbit.com'
+      new_window: true
+    - text: Generated from DEV
+      url: 'https://dev.to/connecting-with-stackbit'
+      new_window: true
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ssg-build.sh
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
